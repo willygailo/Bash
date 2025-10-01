@@ -1,0 +1,107 @@
+
+---
+
+⚡ Non-Root Brevent Booster Guide ⚡
+
+By: Willy Jr Caransa Gailo
+
+🔥 Works on Android 6+ (No Root Required!) 🔥
+
+
+---
+
+📱 Features You Get
+
+✅ UI & Animation Boost – makes the interface snappier and smoother
+✅ Auto Game Mode 🎮 – kills background apps, adjusts brightness, and launches your game
+✅ Brevent-Friendly Optimization – integrates with Brevent (if installed)
+✅ WiFi Booster 📶 – disables aggressive scanning, keeps WiFi awake
+✅ Data SIM Booster 📡 – disables background hogs to prioritize your game
+✅ Dalvik/ART Tweaks ⚙️ – lightweight garbage collection & process cleanup
+✅ Touch Responsiveness 🖐️ – improves pointer speed for lower input lag
+✅ Battery Performance 🔋 – disables low power limits while gaming
+✅ Restore Script – safely revert back to normal anytime
+
+⚠️ Note: Forcing 90/120/144Hz refresh rate, CPU governors, bypass charging and deep kernel tweaks require root/Magisk. This non-root version focuses on safe optimizations.
+
+
+---
+
+🚀 How to Use
+
+🔧 Option A: ADB (from PC)
+
+1. Enable Developer Options + USB Debugging on your phone
+
+
+2. Copy booster script:
+
+adb push nonroot_brevent_booster.sh /sdcard/
+adb shell sh /sdcard/.sh
+
+
+3. To restore defaults:
+
+adb push nonroot_brevent_uninstall.sh /sdcard/
+adb shell sh /sdcard/.sh
+
+
+
+
+---
+
+📲 Option B: Termux (on phone)
+
+1. Install Termux, run:
+
+termux-setup-storage
+
+
+2. Place script in Download folder
+
+
+3. Run:
+
+cd /sdcard/Download
+sh bash_ML.sh
+sh bash_Pubg.sh
+
+
+4. To restore:
+
+sh bash_Uninstall.sh
+
+
+
+
+---
+
+🔄 Restore / Uninstall
+
+If you want to return to normal:
+
+Run .sh
+
+This resets animations, brightness, WiFi settings, and more
+
+💡 For full restore → just reboot your device
+
+
+
+---
+
+⚠️ Important Notes
+
+Some settings may not apply on all devices (depends on OEM/vendor restrictions).
+
+If some commands fail → use ADB shell instead of Termux (ADB has higher privileges).
+
+Always backup important data before testing tweaks.
+
+
+
+---
+
+✨ Safe, Non-Root Optimization for Gaming + Performance.
+Try the booster and restore anytime if you want normal mode again.
+
